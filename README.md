@@ -22,3 +22,23 @@ date || credit || debit || balance
 13/01/2023 || 2000.00 || || 3000.00
 10/01/2023 || 1000.00 || || 1000.00
 ```
+
+### User stories:
+
+```
+As a client,
+So I can save money,
+I want to deposit money into my account.
+```
+
+```
+As a client,
+So I can spend money,
+I want to withdraw money from my account.
+```
+
+```
+As a client,
+So I know how much money I have,
+I want to print the statement of my account.
+```
