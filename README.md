@@ -1,19 +1,6 @@
 # Introduction
 As part of the week 10 curriculum at Makers, we were challenged to create a program with the following specifications:
 
-### To use the app:
-```
-Clone this repository
-Run bundle install
-Run irb in the Command Line 
-require './lib/account.rb'
-require 'date' (optional as you can enter any dates you wish to use)
-account = Account.new
-account.deposit_amount(Date.today, 2000)
-account.withdrawal_amount(Date.today, 500)
-account.acct_statement
-
-```
 ### Requirements
 
 * You should be able to interact with your code via a REPL like IRB or Node.  (You don't need to implement a command line interface that takes input from STDIN.)
@@ -34,6 +21,19 @@ date || credit || debit || balance
 14/01/2023 || || 500.00 || 2500.00
 13/01/2023 || 2000.00 || || 3000.00
 10/01/2023 || 1000.00 || || 1000.00
+```
+
+### To use the app:
+```
+Clone this repository
+Run bundle install
+Run irb in the Command Line 
+require './lib/account.rb'
+require 'date' (optional as you can enter any dates you wish to use)
+account = Account.new
+account.deposit_amount(Date.today, 2000)
+account.withdrawal_amount(Date.today, 500)
+account.acct_statement
 ```
 
 ### User stories:
