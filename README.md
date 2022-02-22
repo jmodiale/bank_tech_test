@@ -26,13 +26,21 @@ date || credit || debit || balance
 ### To use the app:
 ```
 Clone this repository
+
 Run bundle install
+
 Run irb in the Command Line 
+
 require './lib/account.rb'
+
 require 'date' (optional as you can enter any dates you wish to use)
+
 account = Account.new
+
 account.deposit_amount(Date.today, 2000)
+
 account.withdrawal_amount(Date.today, 500)
+
 account.acct_statement
 ```
 
@@ -55,4 +63,7 @@ As a client,
 So I know how much money I have,
 I want to print the statement of my account.
 ```
+
+### Code Process
+I started off by breaking down the requirements into user stories in order to understand the relationship between any classes and methods. I built up the tests for the account.rb class first and set up the initial functions to simply add and remove money and check the balance.
 
