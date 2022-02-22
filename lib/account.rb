@@ -12,12 +12,12 @@ class Account
 
     def deposit_amount(date = Date.today, value)
         @balance += value.to_i
-        @transaction_details << "#{date} ||#{value} 0 ||       || #{balance}"
+        @transaction_details << "#{date} ||#{value} || No Debit || #{balance}"
     end 
 
-    def withdraw_amount(date = Date.today, value)
+    def withdrawal_amount(date = Date.today, value)
         @balance -= value.to_i
-        @transaction_details << "#{date} ||        ||#{value} || #{balance}"
+        @transaction_details << "#{date} || No Credit ||#{value} || #{balance}"
     end 
 
     def balance_value
